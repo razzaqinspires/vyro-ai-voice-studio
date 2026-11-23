@@ -129,3 +129,6 @@ The adapter follows the current upstream non-streaming API: `VoxCPM.from_pretrai
 - VoxCPM2 model card and current usage: https://huggingface.co/openbmb/VoxCPM2
 - VoxCPM Python API: https://github.com/OpenBMB/VoxCPM
 - faster-whisper: https://github.com/SYSTRAN/faster-whisper
+
+## 1.1.0 — Prime API
+Optional FastAPI service exposes `POST /v1/voice/synthesize` and protected WAV downloads. It accepts a server-configured `voice_profile_id`, not an arbitrary filesystem path. Install `pip install -e '.[api]'`, set `VYRO_SERVICE_API_KEY`, `VOICE_PROFILE_DIR`, and model settings, then run `uvicorn vyro_ai_voice_studio.api:app --host 0.0.0.0 --port 8000`. Every request must affirm consent; the profile manifest must also contain valid rights metadata. Audio still requires human listening QA.

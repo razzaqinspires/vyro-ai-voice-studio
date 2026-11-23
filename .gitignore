@@ -1,46 +1,8 @@
-# Python
+.venv/
 __pycache__/
 *.py[cod]
-.pytest_cache/
-.ruff_cache/
-.mypy_cache/
-.coverage
-htmlcov/
-
-# Secrets / environments
 .env
 .env.*
 !.env.example
-.venv/
-venv/
-
-# Private voice material and generated media (never commit)
-voice_profiles/
-voice_samples/
-profiles/
+!.env.api.example
 outputs/
-output/
-artifacts/
-*.wav
-*.mp3
-*.flac
-*.m4a
-*.ogg
-*.mp4
-*.sqlite3
-*.db
-*.log
-
-# Cached model weights
-.cache/
-models/
-checkpoints/
-*.safetensors
-*.pth
-*.pt
-
-# Editors / OS
-.idea/
-.vscode/
-.DS_Store
-Thumbs.db
