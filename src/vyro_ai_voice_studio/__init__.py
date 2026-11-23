@@ -1,3 +1,2 @@
-"""VYRO MEDIA vyro-ai-voice-studio component."""
-
-__version__ = "1.1.0"
+"""VYRO MEDIA AI Voice Studio — isolated, rights-aware speech synthesis."""
+__version__ = "1.2.0"

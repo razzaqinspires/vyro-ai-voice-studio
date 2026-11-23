@@ -1,6 +1,7 @@
 # Changelog
 
-## 1.1.0 — 2026-11-23
-- Added optional authenticated API with server-side voice-profile resolution.
-- Added protected audio artifact download endpoint.
-- Preserved consent attestation and human audio QA requirements.
+## 1.2.0 — Demo isolation and profile compatibility
+- Added demo-ID namespace isolation for voice artifacts.
+- Fixed profile lookup to support the directory layout created by `vyro-voice create-profile`.
+- Added per-demo artifact download authorization and configurable TTL expiration.
+- Kept voice rights/consent and full-audio human review mandatory.
