@@ -1,0 +1,13 @@
+{
+  "profile_id": "voice-owner-main",
+  "reference_audio_path": "./voice_samples/my_authorized_voice.wav",
+  "reference_transcript": "Ini adalah contoh kalimat yang benar-benar diucapkan dalam rekaman referensi.",
+  "language": "id-ID",
+  "authorization": {
+    "rights_confirmed": true,
+    "subject_relationship": "self",
+    "consent_record_id": "consent-2026-001",
+    "consent_scope": "I authorize local synthetic voice generation for my own VYRO MEDIA narration.",
+    "consent_date": "2026-11-23"
+  }
+}

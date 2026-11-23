@@ -1,0 +1,8 @@
+{
+  "content_id": "vyro-demo-001",
+  "text": "Selamat datang di VYRO MEDIA. Kami membangun konten yang menarik, berguna, dan bertanggung jawab.",
+  "voice_profile_path": "./examples/voice_profile.example.json",
+  "mode": "narration",
+  "seed": 20261123,
+  "consent_confirmation": true
+}

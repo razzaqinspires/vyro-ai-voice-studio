@@ -1,0 +1,9 @@
+Copyright (c) 2026 VYRO MEDIA. All rights reserved.
+
+This repository is proprietary. No permission is granted to reproduce, distribute,
+modify, sublicense, or commercially exploit this software without prior written
+permission from the rights holder, except where mandatory law provides otherwise.
+
+Third-party model and library licenses remain separate and must be reviewed by the
+operator before deployment. The VoxCPM2 model card currently identifies the model
+weights under Apache-2.0; see NOTICE.md and the upstream model card.
